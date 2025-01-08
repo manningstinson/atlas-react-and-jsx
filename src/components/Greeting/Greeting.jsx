@@ -1,8 +1,8 @@
 import React from 'react';
-import dayImage from './day.jpg';
-import eveningImage from './evening.jpg';
-import nightImage from './night.jpg';
-import './Greeting.css';
+import dayImage from '../../assets/day.svg';
+import eveningImage from '../../assets/evening.svg';
+import nightImage from '../../assets/night.svg';
+
 
 const Greeting = () => {
     let greetingText = '';
@@ -34,3 +34,5 @@ const Greeting = () => {
         </div>
     );
 }
+
+export default Greeting;

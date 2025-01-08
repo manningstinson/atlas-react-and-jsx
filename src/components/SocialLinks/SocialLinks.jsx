@@ -1,6 +1,7 @@
 import React from "react";
-import "./SocialLinks.css";
-import githubIcon from "./github.svg";
+import linkedinIcon from '../../assets/linkedin.svg';
+import githubIcon from '../../assets/github.svg';
+import '../../index.css';  // Import index.css from the src folder
 
 const SocialLinks = () => {
       return (
@@ -8,8 +9,8 @@ const SocialLinks = () => {
                 <a href="https://www.github.com">
                          <img src={githubIcon} alt="GitHub" /></a>
                               
-                <a href="https://www.github.com">
-                        <img src={githubIcon} alt="GitHub" /></a>
+                <a href="https://www.linkedin.com">
+                        <img src={linkedinIcon} alt="LinkedIn" /></a>
             </div>
       );
 }
