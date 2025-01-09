@@ -45,18 +45,23 @@ nav {
 }
 
 .about-me {
-  background: var(--offwhite);
-  color: var(--blue);
+  background: var(--offwhite); /* Background color using a CSS variable */
+  color: var(--blue);          /* Text color using a CSS variable */
   padding: 2rem;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
+  border-radius: 30px;         /* Rounded corners for the section */
+  display: flex;               /* Flexbox layout for image and text */
+  align-items: center;         /* Vertically centers the content */
 }
 
 .about-me img {
-  width: 200px;
-  border-radius: 30px;
-  margin-right: 2rem;
+  width: 200px;                /* Set a fixed width for the image */
+  border-radius: 30px;         /* Rounded corners for the image */
+  margin-right: 2rem;          /* Space between the image and text */
+}
+
+.about-me p {
+  font-size: 1.1rem;           /* Adjust font size for the paragraph */
+  line-height: 1.6;            /* Better line height for readability */
 }
 
 li::marker {

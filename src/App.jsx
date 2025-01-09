@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header/Header";
 import Section from "./components/Section/Section"; // Import Section
 import HelpfulResource from "./components/HelpfulResource/HelpfulResource"; // Import HelpfulResource
+import AboutMe from "./components/AboutMe/AboutMe"; // Import AboutMe
 import "./index.css";
 
 function App() {
@@ -48,6 +49,10 @@ function App() {
           link="https://reactjs.org/docs/hooks-reference.html"
         />
       </Section>
+      {/* About Me section */}
+      <Section title="About Me">
+        <AboutMe />
+        </Section>
     </div>
   );
 }
