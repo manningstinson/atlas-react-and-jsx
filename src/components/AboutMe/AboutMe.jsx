@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div className="about-me">
       <img
-        src="your-image-url.jpg" // Replace with your actual image URL
+        src="/images/manning-linkedin.jpeg" // Replace with your actual image URL
         alt="Your professional portrait"
         className="about-me-image"
       />
